@@ -1,0 +1,32 @@
+{
+  "implementation": "hnswlib (C++)",
+  "config": {
+    "train_embeddings": "./data/embeddings/wikitext_train_simple_dim128.npy",
+    "test_embeddings": "./data/embeddings/wikitext_test_simple_dim128.npy",
+    "space": "l2",
+    "M": 16,
+    "ef_construction": 200,
+    "ef_search": 50,
+    "k": 10,
+    "num_threads": 4
+  },
+  "build_stats": {
+    "build_time": 0.2610342502593994,
+    "throughput": 38309.14904868855,
+    "memory_used_mb": 6.90625,
+    "num_elements": 10000,
+    "dimension": 128,
+    "M": 16,
+    "ef_construction": 200,
+    "num_threads": 4
+  },
+  "search_stats": {
+    "total_query_time": 0.06028342247009277,
+    "avg_query_time_ms": 0.03107392910829524,
+    "queries_per_second": 32181.318188469708,
+    "num_queries": 1940,
+    "k": 10,
+    "ef_search": 50,
+    "avg_distance": 0.0013419926399365067
+  }
+}

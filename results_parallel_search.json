@@ -1,0 +1,17 @@
+{
+  "num_queries": 1940,
+  "cpu": {
+    "latency_us": 31.073929108295243,
+    "throughput_qps": 32181.318188469708,
+    "total_time_ms": 60.28342247009277
+  },
+  "gpu": {
+    "latency_us": 30.27203156776035,
+    "throughput_qps": 33033.79219070972,
+    "total_time_ms": 58.72774124145508
+  },
+  "speedup": {
+    "latency": 1.0264897167122708,
+    "throughput": 1.0264897167122708
+  }
+}

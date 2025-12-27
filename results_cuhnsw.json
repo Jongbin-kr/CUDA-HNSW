@@ -1,0 +1,35 @@
+{
+  "implementation": "hnswlib-cuda",
+  "version": "GPU-accelerated (CUDA)",
+  "dataset": {
+    "train_size": 10000,
+    "test_size": 1940,
+    "dimension": 128
+  },
+  "parameters": {
+    "space": "l2",
+    "M": 16,
+    "ef_construction": 200,
+    "ef_search": 50,
+    "k": 10
+  },
+  "build_stats": {
+    "total_time_sec": 0.15089011192321777,
+    "throughput_items_per_sec": 66273.39507235981,
+    "memory_mb": 13.75,
+    "num_elements": 10000,
+    "dimension": 128,
+    "M": 16,
+    "ef_construction": 200
+  },
+  "search_stats": {
+    "total_time_sec": 0.05872774124145508,
+    "avg_query_time_sec": 3.027203156776035e-05,
+    "avg_query_time_us": 30.27203156776035,
+    "queries_per_second": 33033.79219070972,
+    "num_queries": 1940,
+    "k": 10,
+    "ef_search": 50,
+    "avg_distance": 0.0013419894967228174
+  }
+}
